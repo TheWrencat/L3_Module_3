@@ -13,7 +13,7 @@ public class TestCityTaxes {
 		ArrayList<City> cities = new ArrayList<City>();
 		City sd = new SanDiego(1407000, 1.6);
 		City bo = new Boston(673184, 1.2);
-		City la = new LosAngeles(3976000, 1.4);
+		City la = new LA(3976000, 1.4);
 		City at = new Atlanta(472522, 1);
 		
 		cities.add(sd);
