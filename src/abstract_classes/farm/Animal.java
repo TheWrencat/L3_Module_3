@@ -1,5 +1,8 @@
 package abstract_classes.farm;
 
-public class Animal {
+public abstract class Animal {
 
+	abstract String makeNoise();
+	
+	String eat = "Nom nom nom";
 }
