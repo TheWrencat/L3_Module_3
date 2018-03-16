@@ -1,6 +1,6 @@
 package abstract_classes.farm;
 
-public class Chickenextends Animal{
+public class Chicken extends Animal{
 
 	@Override
 	String makeNoise() {
