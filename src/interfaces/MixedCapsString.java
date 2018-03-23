@@ -13,14 +13,12 @@ public class MixedCapsString extends SpecialString {
 		String mixedCaps = "";
 		int numLetters = 0;
 		for(int i = 0; i< s.length(); i++) {
-			if(s.substring(i-1, i).equals(" ")) {
-				continue;
-			}
+			char c = s.charAt(i);
 			if(i%2 == 0) {
-				mixedCaps += s.substring(i-1, i).toUpperCase();
+				mixedCaps += c = Character.toLowerCase(c);
 			}
 			if(i%2 != 0) {
-				mixedCaps += s.substring(i-1, i).toLowerCase();
+				mixedCaps += c = Character.toUpperCase(c);
 			}
 		}
 		System.out.println(mixedCaps);
